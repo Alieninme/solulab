@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
         <div className='nav'>
             <ul className='navList'>
-            <Link to={"/"} className='navListItem'>
+            <Link to={"/solulab"} className='navListItem'>
                 <li className='navListItem'>
                 <TbActivity />
                 </li>
