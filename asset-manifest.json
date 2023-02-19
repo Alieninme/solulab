@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/solulab/static/css/main.76adc414.css",
-    "main.js": "/solulab/static/js/main.b95ea979.js",
+    "main.js": "/solulab/static/js/main.9da2d066.js",
     "index.html": "/solulab/index.html",
     "main.76adc414.css.map": "/solulab/static/css/main.76adc414.css.map",
-    "main.b95ea979.js.map": "/solulab/static/js/main.b95ea979.js.map"
+    "main.9da2d066.js.map": "/solulab/static/js/main.9da2d066.js.map"
   },
   "entrypoints": [
     "static/css/main.76adc414.css",
-    "static/js/main.b95ea979.js"
+    "static/js/main.9da2d066.js"
   ]
 }
