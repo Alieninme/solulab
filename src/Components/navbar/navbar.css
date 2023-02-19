@@ -1,0 +1,35 @@
+.navList{
+   box-sizing: border-box;  
+   width: 7vw; 
+   display: flex;
+   flex-direction: column;
+   background-color: #ffffff;
+   border-right: 1px solid gray;
+   height: 100vh;
+   justify-content: space-evenly;
+}
+
+.navListItem{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    cursor: pointer;
+    text-align: center;
+}
+
+.navListItem > p{
+    color: rgb(172, 172, 172);
+    font-size: 12px;
+}
+
+.navListItem:hover{
+    background-color: rgb(127, 184, 42);
+    color: #ffffff;
+}
+.navListItem:hover p{
+    color: white;
+}
+

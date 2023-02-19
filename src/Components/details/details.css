@@ -1,0 +1,290 @@
+.mainContainer{
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 12px;
+}
+
+.line{
+    border-left: 2px solid rgba(107,107,107, .2);
+    height: 30px;  
+}
+
+.userinfoContainer{
+    flex-basis: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+}
+
+.userinfo{
+    width: 70%;
+   margin: 10px;
+}
+
+.userinfoContainer button{
+    width: 90%;
+    padding: 5px;
+    margin: 20px;
+    background-color: transparent;
+    border: 2px solid rgba(107,107,107, .2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.userinfo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.userinfo ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.userinfo ul li{
+    width: 50%;
+    list-style: none;
+}
+.userinfo li span{
+    display: block;
+    font-size: 12px;
+    color: #6B6B6B;
+}
+
+input {
+    display: block;
+    width: 95%;
+    margin-top: 5px;
+    text-align: start;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #ffffff;
+    border-bottom: solid rgba(107,107,107, .2);
+    padding-bottom: 15px;
+  }
+input:focus{
+    outline: none;
+}
+
+.userform{
+    display: flex;
+    flex-basis: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30vh;
+    margin-top: 7vh;
+    justify-content: space-around;
+}
+
+.formsingle{
+    flex: 1 0 21%;
+    text-align: start;
+    margin: 10px ;
+}
+
+.formsingle label{
+    font-size: 12px;
+    color: #6B6B6B;
+}
+
+.fileList{
+  flex-basis: 30%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-top: 50px;
+  height: 40vh;
+}
+.fileList h5{
+    margin-left: 20px;
+    font-size: 16px;  
+}
+.fileList li{
+    width: 80%;
+    font-size: 12px;
+    list-style: none;
+    margin-left: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #f3f2f2;
+    cursor: pointer;
+}
+
+.po{
+    flex-basis: 65%;
+    height: 20vh;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.appointmentLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 45px;
+    background-color: #f3f2f2;
+    border-radius: 5px;
+}
+
+.appointmentLinks li{
+    list-style: none;
+    display: flex;
+    color: #6B6B6B;
+    font-size: 12px;
+    height: 27px;
+    width: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.appointmentLinks li:hover{
+  color: #4469BA;
+  background-color: white;
+}
+
+.appointmentsData{
+    width: 100%;
+    height: 40vh;
+    background-color: #f3f2f2;
+}
+.appointmentsData section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid rgba(107,107,107, .2);
+    margin-top: 20px;
+}
+
+.appointmentsData section button{
+    height: 30px;
+    color: #6B6B6B;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+    
+}
+
+.appointmentsData section button:hover{
+    background-color: white;
+}
+
+.fix{
+    margin-right: 50px;
+}
+.appointmentList{
+    display: flex;
+    padding: 10px;
+}
+
+.appointmentList ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+    padding: 10px;
+    background-color: #fffafa;
+}
+
+.appointmentList ul li lable{
+    display: block;
+    font-size: 12px;
+    color: #6B6B6B;
+    margin-bottom: 5px;
+}
+
+.appointmentList ul li{
+    display: block;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 767px){
+    .nav{
+        display: none;
+    }
+
+    .mainContainer{
+        display: block;
+        overflow-x: hidden;
+        font-size: 10px;
+    }
+
+    .userform{
+        display: block;
+        position: relative;
+        top: 50px;
+    }
+    .formsingle{
+      height: 30px;
+    }
+    .formsingle label{
+        font-size: 10px;
+    }
+    .formsingle input{
+        font-size: 10px;
+        border-bottom:none ;
+    }
+    .fileList{
+        position: relative;
+        top: 160px;
+    }
+    .fileList li{
+        font-size: 9px;
+    }
+
+    .po{
+        position: relative;
+        top: 200px;  
+        margin-top: 10px;
+    }
+
+    .appointmentLinks{
+       width: 90vw;
+    }
+    .appointmentLinks li{
+        font-size: 10px;
+        margin-right: 10px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .appointmentsData section button{
+     font-size: 10px;
+    }
+    .appointmentsData{
+        height: 300px;
+    }
+    .appointmentList{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100px;
+    }
+    .appointmentList ul{
+        width: 80vw;
+     }
+    .appointmentList ul li{
+       font-size: 10px;
+    }
+}
+
